@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+#title {
+  display: grid;
+  grid-area: header;
+  justify-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+html { 
+  background: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#description{
+    display: grid;
+  grid-area: header;
+  justify-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+#survey-form {
+  display: grid;
+  justify-items: center;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+#name {
+  border-radius: 10px;
+  border: solid white;
+}
+#email {
+  border-radius: 10px;
+  border: solid white;
+}
+#number {
+  border-radius: 10px;
+  border: solid white;
+  width: 150px
+}
+#dropdown {
+  border-radius: 10px;
+  border: solid white;
+}
+#submit {
+  border-radius: 10px;
+  border: solid white;
+  transition: background-color .5s;
+  transition: color .5s;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+#submit:hover {
+  color: white;
+  background-color: black;
+}

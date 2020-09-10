@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="party.css" />
+    <title>Party Survey</title>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <img
+        href="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+    <h1 id="title">🎉 Party Survey 🎉</h1>
+    <p id="description">Thank You For Taking This Survey</p>
+    <div id="container">
+        <form id="survey-form">
+            <br>
+            <label id="name-label">Please Enter Your Name Here:</label>
+            <br>
+            <br>
+            <input id="name" required placeholder="Enter Your Name">
+            <br>
+            <br>
+            <label id="email-label">Please Enter Your Email Here:</label>
+            <br>
+            <br>
+            <input type="email" required id="email" placeholder="Enter Your Email">
+            <br>
+            <br>
+            <label id="number-label">Please Enter Your Age Here:</label>
+            <br>
+            <br>
+            <input type="number" id="number" placeholder="Enter Your Age" min="25" max="99" required>
+            <br>
+            <br>
+            <p id="dropdown-label">Select A Date For Your Party<p>
+                    <br>
+                    <br>
+                    <select id="dropdown" name="role" class="form-control" required>
+                        <option disabled selected value>Select A Date For Your Party</option>
+                        <option value="Sun">Sun.</option>
+                        <option value="Mon">Mon.</option>
+                        <option value="Tue">Tue.</option>
+                        <option value="Wed">Wed.</option>
+                        <option value="Thu">Thu.</option>
+                        <option value="Thu">Fri.</option>
+                        <option value="Thu">Sat.</option>
+                    </select>
+                    <br>
+                    <br>
+                    <p>Select Your Gender</p>
+                    <label>
+                        <input name="user-gender" value="male" type="radio" class="input-radio" checked />Male</label>
+                    <label>
+                        <input name="user-gender" value="female" type="radio" class="input-radio" />Female</label>
+
+                    <label><input name="user-gender" value="blank" type="radio" class="input-radio" />Rather Not
+                        Say</label>
+                    <p>
+                        Enter all available times here: (Check all that apply)
+                    </p>
+
+                    <label><input name="prefer" value="8-10" type="checkbox" class="input-checkbox" />8:00 AM - 10:00
+                        AM</label>
+                    <label>
+                        <input name="prefer" value="10-12" type="checkbox" class="input-checkbox" />10:00 AM - 12:00
+                        PM</label>
+                    <label><input name="prefer" value="12-2" type="checkbox" class="input-checkbox" />12:00 PM - 2:00
+                        PM</label>
+                    <label><input name="prefer" value="2-4" type="checkbox" class="input-checkbox" />2:00 PM - 4:00
+                        PM</label>
+                    <label><input name="prefer" value="4-6" type="checkbox" class="input-checkbox" />4:00 PM - 6:00
+                        PM</label>
+                    <label><input name="prefer" value="6-8" type="checkbox" class="input-checkbox" />6:00 PM - 8:00
+                        PM</label>
+                    <p>If You Have Any Comments Or Suggestions:</p>
+                    <br>
+                    <br>
+                    <textarea placeholder="Leave your comments or suggestions here!"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" id="submit">
+                    <br>
+
+        </form>
+    </div>
+</body>
+
+</html>
